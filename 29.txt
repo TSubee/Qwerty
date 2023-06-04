@@ -1,0 +1,20 @@
+Title="MainWindow" Height="450" Width="800" Background="White">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Background="Blue"></Grid>
+        <StackPanel>
+        <Label  HorizontalAlignment="Left" Content="Заезд" Foreground="White" FontSize="15" Margin="5" Height="28" Width="200"></Label>
+        <DatePicker Width="200" HorizontalAlignment="Left" Foreground="Blue"></DatePicker>
+        </StackPanel>
+        <StackPanel>
+            <Label  HorizontalAlignment="Center" Margin="5" Content="Выезд" Foreground="White" FontSize="15" Height="28" Width="200"></Label>
+            <DatePicker Width="200" HorizontalAlignment="Center" Foreground="Blue"></DatePicker>
+        </StackPanel>
+        <Button Content="Найти номер" Margin="5" FontSize="20" HorizontalAlignment="Right" Foreground="White" Width="200" Height="50" Background="Orange"></Button>
+        <TextBlock Text="Гости:" Foreground="White" FontSize="15" Margin="500 10 0 0"></TextBlock>
+        <TextBox Width="20" Height="25" Margin="250 20 0 0"></TextBox>
+        <Image Source="C:\Users\glas5\Downloads\vel.jpg" Width="25" Margin="330 20 0 0"></Image>
+    </Grid>
